@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+}
+
+form > * {
+    margin: 5px;
+}
+
+#resultado {
+    text-align: center;
+    color: red;
+    font-size: 1.25em;
+}
